@@ -12,7 +12,7 @@ services:
       - stack_ponte
     restart: always
     ports:
-      - 851:80
+      - 852:80
     volumes:
       - "${PATHPESSOAL}/dinal-web/front:/app"
     labels:
