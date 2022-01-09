@@ -17,6 +17,6 @@ services:
       - "${PATHPESSOAL}/dinal-web/front:/app"
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.siteoal.rule=Host(`dinal.${DOMAIN}`, `dinal.com`,
-        `www.dinal.com`)"
-      - "traefik.http.services.siteoal.loadbalancer.server.port=80"
+      - "traefik.http.routers.sitedinal.rule=Host(`dinal.${DOMAIN}`,
+        `dinal.com`, `www.dinal.com`)"
+      - "traefik.http.services.sitedinal.loadbalancer.server.port=80"
